@@ -35,7 +35,7 @@ componentDidMount(){
   render() {
     return (
       <div>
-        <Header>
+        <Header currentUser = {this.state.currentUser}>
 
         </Header>
         <Switch>
