@@ -7,7 +7,7 @@ import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import Header from './components/header/header.component';
-import { auth } from '../src/firebase/firebase.utils';
+import { auth, createUserProfileDocument } from '../src/firebase/firebase.utils';
 
 
 import './pages/homepage/homepage.styles.scss';
@@ -24,10 +24,9 @@ constructor(){
 }
 
 componentDidMount(){
-  auth.onAuthStateChanged(user => {
-    this.setState({currentUser: user})
+  auth.onAuthStateChanged(async user => {
+    createUserProfileDocument(user)
 
-    console.log(user)
   })
 }
 
