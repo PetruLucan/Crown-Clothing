@@ -23,23 +23,23 @@ class Directory extends React.Component {
                 },
                 {
                     title: 'sneakers',
-                    imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+                    imageUrl: 'https://images.wallpaperscraft.com/image/sneakers_purple_sports_118194_7360x4912.jpg',
                     id: 3,
                     linkUrl: 'shop/sneakers'
                 },
                 {
-                    title: 'womens',
+                    title: 'women',
                     imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
                     size: 'large',
                     id: 4,
-                    linkUrl: 'shop/womens'
+                    linkUrl: 'shop/women'
                 },
                 {
-                    title: 'mens',
-                    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+                    title: 'men',
+                    imageUrl: 'https://lh3.googleusercontent.com/proxy/XUGdFSQQD3ppOAgCoPXZxBo3ZYumpJFjASTgOQfJpFiKbBcyA-2J3E65rQp8C6s5oZwYmRVfnxv7fIUFISkmMmKRf5kqVtLfAtdvZ2jLQjfuEoc3zi4Ybnwz9-7isQvfjgw8COcs3C1SIzns-w',
                     size: 'large',
                     id: 5,
-                    linkUrl: 'shop/mens'
+                    linkUrl: 'shop/men'
                 }
             ]
         }

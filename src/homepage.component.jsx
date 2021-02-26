@@ -5,7 +5,7 @@ const HomePage = () => (
         <div className="directory-menu">
             <div className="menu-item">
                 <div className="content">
-                    <h1 className="title">HATS</h1>
+                    <h1 className="title">not hats</h1>
                     <span className="subtitle">SHOP NOW</span>
                 </div>
             </div>
@@ -21,12 +21,12 @@ const HomePage = () => (
                 </div>
             </div><div className="menu-item">
                 <div className="content">
-                    <h1 className="title">WOMEN</h1>
+                    <h1 className="title">dipshit</h1>
                     <span className="subtitle">SHOP NOW</span>
                 </div>
             </div><div className="menu-item">
                 <div className="content">
-                    <h1 className="title">MENS</h1>
+                    <h1 className="title">MEN</h1>
                     <span className="subtitle">SHOP NOW</span>
                 </div>
             </div>
