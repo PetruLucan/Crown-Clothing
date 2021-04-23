@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Crown-Clothing/static/css/main.c5a94936.chunk.css",
-    "main.js": "/Crown-Clothing/static/js/main.0f5fa941.chunk.js",
-    "main.js.map": "/Crown-Clothing/static/js/main.0f5fa941.chunk.js.map",
+    "main.css": "/Crown-Clothing/static/css/main.44b196d0.chunk.css",
+    "main.js": "/Crown-Clothing/static/js/main.8e9376d4.chunk.js",
+    "main.js.map": "/Crown-Clothing/static/js/main.8e9376d4.chunk.js.map",
     "runtime-main.js": "/Crown-Clothing/static/js/runtime-main.97213c96.js",
     "runtime-main.js.map": "/Crown-Clothing/static/js/runtime-main.97213c96.js.map",
-    "static/js/2.5b0ab92e.chunk.js": "/Crown-Clothing/static/js/2.5b0ab92e.chunk.js",
-    "static/js/2.5b0ab92e.chunk.js.map": "/Crown-Clothing/static/js/2.5b0ab92e.chunk.js.map",
+    "static/js/2.3bbe4a5b.chunk.js": "/Crown-Clothing/static/js/2.3bbe4a5b.chunk.js",
+    "static/js/2.3bbe4a5b.chunk.js.map": "/Crown-Clothing/static/js/2.3bbe4a5b.chunk.js.map",
     "index.html": "/Crown-Clothing/index.html",
-    "static/css/main.c5a94936.chunk.css.map": "/Crown-Clothing/static/css/main.c5a94936.chunk.css.map",
-    "static/js/2.5b0ab92e.chunk.js.LICENSE.txt": "/Crown-Clothing/static/js/2.5b0ab92e.chunk.js.LICENSE.txt",
+    "static/css/main.44b196d0.chunk.css.map": "/Crown-Clothing/static/css/main.44b196d0.chunk.css.map",
+    "static/js/2.3bbe4a5b.chunk.js.LICENSE.txt": "/Crown-Clothing/static/js/2.3bbe4a5b.chunk.js.LICENSE.txt",
     "static/media/crown.207ae289.svg": "/Crown-Clothing/static/media/crown.207ae289.svg",
     "static/media/shopping-bag.a688874f.svg": "/Crown-Clothing/static/media/shopping-bag.a688874f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.97213c96.js",
-    "static/js/2.5b0ab92e.chunk.js",
-    "static/css/main.c5a94936.chunk.css",
-    "static/js/main.0f5fa941.chunk.js"
+    "static/js/2.3bbe4a5b.chunk.js",
+    "static/css/main.44b196d0.chunk.css",
+    "static/js/main.8e9376d4.chunk.js"
   ]
 }
