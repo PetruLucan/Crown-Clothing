@@ -36,7 +36,7 @@ class Directory extends React.Component {
                 },
                 {
                     title: 'men',
-                    imageUrl: '../../men.png',
+                    imageUrl: 'https://p4.wallpaperbetter.com/wallpaper/226/785/162/city-coffee-fashion-men-wallpaper-preview.jpg',
                     size: 'large',
                     id: 5,
                     linkUrl: 'shop/men'
