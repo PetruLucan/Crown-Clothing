@@ -23,7 +23,7 @@ class Directory extends React.Component {
                 },
                 {
                     title: 'sneakers',
-                    imageUrl: 'https://images.wallpaperscraft.com/image/sneakers_purple_sports_118194_7360x4912.jpg',
+                    imageUrl: 'https://images.wallpaperscraft.com/image/single/sneakers_fence_shoes_166550_1024x768.jpg',
                     id: 3,
                     linkUrl: 'shop/sneakers'
                 },
