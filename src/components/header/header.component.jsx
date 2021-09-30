@@ -13,6 +13,7 @@ const Header = ({ currentUser, hidden }) => (
     <div className='header'>
         <Link to="/">
             <Logo className='logo'></Logo>
+            <p>Crown Clothing</p>
         </Link>
         <div className='options'>
             <Link className='option' to='/shop'>SHOP</Link>
