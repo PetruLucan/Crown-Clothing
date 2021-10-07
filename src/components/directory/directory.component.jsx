@@ -1,61 +1,23 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+
 import MenuItem from '../menu-item/menu-item.component.jsx';
+import { selectDirectorySections } from '../../redux/directory/directory.selector';
+
 import './directory.styles.scss';
 
 
-class Directory extends React.Component {
-    constructor() {
-        super();
+const Directory = ({ sections }) => (
+    <div className='directory-menu'>
+        {sections.map(({ id, ...otherSectionProps }) => (
+            <MenuItem key={id} {...otherSectionProps}></MenuItem>
+        ))}
+    </div>
+)
 
-        this.state = {
-            sections: [
-                {
-                    title: 'hats',
-                    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-                    id: 1,
-                    linkUrl: 'shop/hats'
-                },
-                {
-                    title: 'jackets',
-                    imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
-                    id: 2,
-                    linkUrl: 'shop/jackets'
-                },
-                {
-                    title: 'sneakers',
-                    imageUrl: 'https://images.wallpaperscraft.com/image/single/sneakers_fence_shoes_166550_1024x768.jpg',
-                    id: 3,
-                    linkUrl: 'shop/sneakers'
-                },
-                {
-                    title: 'women',
-                    imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
-                    size: 'large',
-                    id: 4,
-                    linkUrl: 'shop/women'
-                },
-                {
-                    title: 'men',
-                    imageUrl: 'https://p4.wallpaperbetter.com/wallpaper/226/785/162/city-coffee-fashion-men-wallpaper-preview.jpg',
-                    size: 'large',
-                    id: 5,
-                    linkUrl: 'shop/men'
-                }
-            ]
-        }
-    }
-render (){
-    return (
-        <div className='directory-menu'>
-            {
-                this.state.sections.map(({id, ...otherSectionProps}) =>(
-                    <MenuItem key={id} {...otherSectionProps}></MenuItem>
-                ))
-            }
-        </div>
-    )
-}
+const mapStateToProps = createStructuredSelector({
+    sections:selectDirectorySections
+})
 
-}
-
-export default Directory;
+export default connect(mapStateToProps)(Directory);
